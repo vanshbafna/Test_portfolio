@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" href="images/CA.png" type="image/icon type">
+  <script src="feed.js"></script>
+  <title>Creative Dev's</title>
+
+</head>
+
+<body>
+
+  <!--##  HEADDER ##-->
+
+  <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+      <!--  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-wh-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>-->
+        <a href="index.html"  class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+           <!-- <img src="Assets/CA.gif" alt="Gif_Logo" width="100px">-->
+           <video autoplay muted loop="true" id="myVideo" Width="100px">
+            <source src="Assets/CA2.mp4" type="video/mp4" Width="100px">
+            </video>
+            <span class="ml-3 text-xl">Creative Devloper(Vansh Bafna)</span>
+          </a>
+
+       
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+       <!-- <a class="mr-5 hover:text-white">About Me</a>-->
+        <a href="About.html" class="mr-5 hover:text-white">About Me</a>
+        <a href="My_Certificates.html" class="mr-5 hover:text-white">My Certificates</a>
+        <a href="Contact.html" class="mr-5 hover:text-white">My Contact</a>
+      </nav>
+      <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!--## BODY CONSOLE ##-->
+
+  <section class="text-gray-400 bg-gray-900 body-font relative">
+  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+    
+    <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <iframe width="1600px" height="1600px" title="map" class="absolute inset-0" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28665.220147941407!2d87.92948823954245!3d26.093939534645237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e516befd097303%3A0xb171e5facfa2a2d8!2sKishanganj%2C%20Bihar!5e0!3m2!1sen!2sin!4v1625306962766!5m2!1sen!2sin" style="filter: grayscale(1) contrast(1.2) opacity(0.71);"></iframe>
+      
+      <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+        
+        <div class="lg:w-1/2 px-6">
+          <h2 class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
+          <a href='https://goo.gl/maps/ZJ7rKG7J8eXRw8Dw6' target='_blank'><p class="mt-1">Caltex Chowk, Kishanganj, Bihar</p></a>
+        </div>
+        
+        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+          <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+          <a href = "mailto: abc@example.com" target = 'blank' class="text-indigo-400 leading-relaxed">vanshbafnajain@gmail.com</a>
+          <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
+          <p class="leading-relaxed">+91-9631274194</p>
+        </div>
+     
+      </div>
+    </div>
+    <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <h2 class="text-white text-lg mb-1 font-medium title-font">Feedback</h2>
+      <p class="leading-relaxed mb-5">You Can submit your feedback directly to 'vanshbafnajain@gmail.com'</p>
+      <div class="relative mb-4">
+        <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+        <input type="text" id="name" name="name" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+        <input type="email" id="email" name="email" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+        <input id="message" name="message" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></input>
+      </div>
+      <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="getInputValue();">Submit</button>
+      <p class="text-xs text-gray-400 text-opacity-90 mt-3"></p>
+    </div>
+  </div>
+</section>
+<footer class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a href="index.html"  class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+        <video autoplay muted loop="true" id="myVideo" Width="100px">
+          <source src="Assets/CA2.mp4" type="video/mp4" Width="100px">
+          </video>
+
+          <span class="ml-3 text-xl">Creative Devloper(Vansh Bafna)</span>
+        </a>
+    <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2021 Creative Devloper —
+      <a href="https://twitter.com/VanshBafna3" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@Vansh Bafna</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a href=" https://instagram.com" target="_blank">
+        <img src="images/insta.png" width="40" height="50">	</a>
+
+      <a href=" https://twitter.com/VanshBafna3" target="_blank">
+        <img src="images/twitter.png" width="50" height="50">	</a>
+
+      <a href="https://github.com/vanshbafna/" target="_blank">
+        <img src="images/github.png" width="40" height="20">	</a>
+
+      
+    </span>
+  </div>
+</footer>
+
+<!--<script>
+  function getInputValue(){
+      // Selecting the input element and get its value 
+      var inputVal = document.getElementById("name").value;
+      document.getElementById('name').value = ''
+      document.getElementById('email').value = ''
+      document.getElementById('message').value = ''
+      // Displaying the value
+      //alert('Submitted');
+      console.log(inputVal);
+  }
+</script>-->
+
+</body>
+</html>
